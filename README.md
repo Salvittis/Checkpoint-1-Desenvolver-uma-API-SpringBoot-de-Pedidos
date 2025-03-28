@@ -3,11 +3,11 @@
 **Nome:** Pedro Henrique Salvitti Habiro (RM: 88166)  
 **Disciplina:** Arquitetura SOA e Web Services
 
-## 📋 Descrição
+## Descrição
 
 API REST para gerenciamento de pedidos desenvolvida com Spring Boot, implementando operações CRUD com validações de negócio. Integra banco de dados H2 em memória para desenvolvimento e testes.
 
-## 🛠 Tecnologias
+## Tecnologias
 
 - **Java 17**
 - **Spring Boot 3.1.5**
@@ -17,7 +17,7 @@ API REST para gerenciamento de pedidos desenvolvida com Spring Boot, implementan
 - **H2 Database**
 - **Maven**
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Passos:
 1. Clone o repositório:
@@ -89,16 +89,8 @@ API REST para gerenciamento de pedidos desenvolvida com Spring Boot, implementan
     DELETE /pedidos/{id}
     Exclusão de Pedido
     Response: 204 No Content
-
-// Response (200 OK)
-{
-  "id": 1,
-  "clienteNome": "Maria Oliveira",
-  "dataPedido": "2023-10-05",
-  "valorTotal": 150.0
-}
-
-  Erros comuns
+   
+    Erros comuns
     400 Bad Request:
     {
         "timestamp": "2023-11-20T12:00:00.000Z",
@@ -107,7 +99,7 @@ API REST para gerenciamento de pedidos desenvolvida com Spring Boot, implementan
         "message": "O nome do cliente é obrigatório"
     }
 
-6. Estrutura do Código
+7. Estrutura do Código
     src/
     ├── main/
     │   ├── java/br/com/fiap/checkpoint1/
@@ -118,7 +110,7 @@ API REST para gerenciamento de pedidos desenvolvida com Spring Boot, implementan
     │   └── resources/
     │       └── application.properties
 
-7. Este README.md unificado contém:
+8. Este README.md unificado contém:
     - Todas as informações técnicas
     - Guia de execução passo a passo
     - Documentação completa dos endpoints
